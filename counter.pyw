@@ -3,7 +3,7 @@
 # Then you can run each individual script to increment each individual text counter.
 
 k = __file__.rfind('.')
-filename = __file__[:k] + ".txt"
+filename = __file__[:k] + ".counter"
 count = 0
 
 try:
