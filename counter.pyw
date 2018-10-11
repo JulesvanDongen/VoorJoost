@@ -1,4 +1,9 @@
-filename = "hello.txt"
+# Suppose you want two counters: one for wins, and one for losses.
+# You could then rename this file to wins, copy it, and rename the copy to losses.
+# Then you can run each individual script to increment each individual text counter.
+
+k = __file__.rfind('.')
+filename = __file__[:k] + ".txt"
 count = 0
 
 try:
