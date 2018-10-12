@@ -6,7 +6,7 @@
 text = "Count:" # Replace this text to insert into a file
 
 k = __file__.rfind('.')
-filename = __file__[:k] + ".txt"
+filename = __file__[:k] + ".counter"
 count = 0
 
 try:
